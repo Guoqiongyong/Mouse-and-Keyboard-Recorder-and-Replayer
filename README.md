@@ -19,34 +19,38 @@
 ```bash
 # 克隆储存库
 git clone https://github.com/Guoqiongyong/Mouse-and-Keyboard-Recorder-and-Replayer.git
+```
 ```bash
 # 打开目录
 cd Mouse-and-Keyboard-Recorder-and-Replayer
+```
 ```bash
 # 创建名为 myenv 的虚拟环境
 python -m venv myenv
+```
 ```bash
 # 激活虚拟环境。在终端或命令提示符中运行以下命令：
 # 对于 Windows：
 myenv\Scripts\activate
 # 对于 macOS/Linux：
 source myenv/bin/activate
-# 安装依赖
-
+```
 ```bash
+# 安装依赖
 pip install -r requirements.txt
+```
+```bash
 # 运行脚本
 python main.py
-
-**Linux 安装(依赖文件单独安装)**
-
-```bash
+```
+Linux 安装(依赖文件单独安装)
+```bash 
 pip3 install pynput tkinter
-
-***Windows 安装(依赖文件单独安装)***
-
-```bash
-pip install pynput tkinter
+```
+Windows 安装(依赖文件单独安装)
+```bash 
+pip3 install pynput tkinter
+```
 
 
 
